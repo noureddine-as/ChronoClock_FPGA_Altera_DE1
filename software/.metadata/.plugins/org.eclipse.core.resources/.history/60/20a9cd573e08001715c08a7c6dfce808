@@ -1,0 +1,76 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "system.h"
+
+int h, m, s, ms;
+
+
+volatile int * btn_ptr = (int*)0x1001060; //KEY_BASE;
+volatile int * sw_ptr  = (int*)0x1001050; // SW_BASE;
+volatile int * hex_ptr = (int*)0x1001020; //HEX_BASE;
+volatile int * ledr_ptr = (int*)0x1001030; //LEDR_BASE;
+volatile int * ledg_ptr = (int*)0x1001040; //LEDG_BASE;
+
+int main()
+{
+  printf("Hello from Nios II!\n");
+
+  while (1)
+  {
+	  //int val = *(sw_ptr);
+	  //*ledg_ptr = val & 0x03;
+	  if (ms == 999)
+		{
+			  ms = 0; s++;
+		}
+
+	  if (s == 59)
+	  		{
+	  			  s = 0; m++;
+	  			  printf("%d  \n", s);
+	  		}
+
+	  if (m == 59)
+	  		{
+	  			  m = 0; h++;
+	  		}
+
+
+
+	  usleep(950);
+	  ms++;
+  }
+
+
+
+/*
+	while(1)
+	{
+		btn_res =  *btn_ptr;
+		sw_res  = *sw_ptr;
+
+
+
+
+
+	}
+*/
+
+
+  return 0;
+}

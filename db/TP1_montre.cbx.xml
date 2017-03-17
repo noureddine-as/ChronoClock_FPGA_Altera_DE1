@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="TP1_montre">
+		<CBX_INST_ENTRY INSTANCE_NAME="|TP1_montre_top|TP1_montre:u0|TP1_montre_CPU:cpu|TP1_montre_CPU_nios2_oci:the_TP1_montre_CPU_nios2_oci|TP1_montre_CPU_nios2_ocimem:the_TP1_montre_CPU_nios2_ocimem|TP1_montre_CPU_ociram_sp_ram_module:TP1_montre_CPU_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_sm71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TP1_montre_top|TP1_montre:u0|TP1_montre_CPU:cpu|TP1_montre_CPU_register_bank_a_module:TP1_montre_CPU_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_o9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TP1_montre_top|TP1_montre:u0|TP1_montre_CPU:cpu|TP1_montre_CPU_register_bank_b_module:TP1_montre_CPU_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_p9g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TP1_montre_top|TP1_montre:u0|TP1_montre_JTAG_UART:jtag_uart|TP1_montre_JTAG_UART_scfifo_w:the_TP1_montre_JTAG_UART_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TP1_montre_top|TP1_montre:u0|TP1_montre_JTAG_UART:jtag_uart|TP1_montre_JTAG_UART_scfifo_r:the_TP1_montre_JTAG_UART_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

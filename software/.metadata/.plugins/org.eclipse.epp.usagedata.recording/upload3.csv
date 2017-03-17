@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.ide",1489437269312
+started,bundle,org.eclipse.ui.navigator,3.4.0.I20090525-2000,"org.eclipse.ui.navigator",1489437269312
+started,bundle,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.resources",1489437269312
+started,bundle,org.eclipse.ui.net,1.2.0.I20090430-0408,"org.eclipse.ui.net",1489437269312
+started,bundle,org.eclipse.ui.views,3.4.0.I20090525-2000,"org.eclipse.ui.views",1489437269312
+started,bundle,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"org.eclipse.ui.workbench",1489437269312
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1489437269312
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1489437269312
+os,sysinfo,,,"win32",1489437269312
+arch,sysinfo,,,"x86",1489437269312
+ws,sysinfo,,,"win32",1489437269312
+locale,sysinfo,,,"fr_FR",1489437269312
+processors,sysinfo,,,"2",1489437269312
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1489437269312
+java.runtime.version,sysinfo,,,"1.8.0_65-b17",1489437269312
+java.specification.name,sysinfo,,,"Java Platform API Specification",1489437269312
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1489437269312
+java.specification.version,sysinfo,,,"1.8",1489437269312
+java.vendor,sysinfo,,,"Oracle Corporation",1489437269312
+java.version,sysinfo,,,"1.8.0_65",1489437269312
+java.vm.info,sysinfo,,,"mixed mode",1489437269312
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1489437269312
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1489437269312
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1489437269312
+java.vm.specification.version,sysinfo,,,"1.8",1489437269312

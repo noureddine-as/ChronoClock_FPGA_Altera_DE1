@@ -1,0 +1,132 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <unistd.h>
+#include "system.h"
+
+enum type {
+	TIME = 0x00, CHRONO = 0x01
+} type;
+
+void Update_HEX_display(int);
+
+//void interrupt_handler(void);
+//void pushbutton_isr(void);
+
+int h, m, s, ms;
+
+volatile int * btn_ptr = (int*) KEY_BASE;
+volatile int * sw_ptr = (int*) SW_BASE;
+volatile int * hex_ptr = (int*) HEX_BASE;
+volatile int * ledr_ptr = (int*) LEDR_BASE;
+volatile int * ledg_ptr = (int*) LEDG_BASE;
+
+char seven_seg_decode_table[] = { 0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D,
+		0x07, 0x7F, 0x6F, 0x77, 0x73, 0x39, 0x5E, 0x79, 0x71 };
+char hex_segments[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
+
+int main() {
+	int dis_s, unit_s, dis_m, unit_m, hex_num;
+	type = TIME;
+
+	printf("Hello CS2E!\n");
+
+	Update_HEX_display(0x4321);
+
+	while (1) {
+		int SW_val = *sw_ptr;
+		int KEY_val = *btn_ptr;
+
+		if (KEY_val & 0x3) // RESET is KEY[3]
+		{
+			ms = 0;
+			s = 0;
+			m = 0;
+			h = 0;
+			continue;
+		}
+
+	/*	if(SW_val & 0x01)
+			type = TIME;
+		else
+			type = CHRONO;
+*/
+		if (ms == 1000) {
+			ms = 0;
+			s++;
+
+			dis_s = s / 10;
+			unit_s = s % 10;
+			dis_m = m / 10;
+			unit_m = m % 10;
+			hex_num = (unit_s) | (dis_s << 4) | (unit_m << 8) | (dis_m << 12);
+			Update_HEX_display(hex_num);
+
+			printf("%d \n", s);
+		}
+		if (s == 60) {
+			s = 0;
+			m++;
+		}
+		if (m == 60) {
+			m = 0;
+			h++;
+		}
+
+		/////////
+
+		usleep(0);
+		ms++;
+	}
+
+	/*
+	 while(1)
+	 {
+	 btn_res =  *btn_ptr;
+	 sw_res  = *sw_ptr;
+
+
+
+
+
+	 }
+	 */
+
+	return 0;
+}
+
+/*******************************************************************************
+ * Updates the value displayed on the hex display. The value is taken from the
+ * buffer.
+ ********************************************************************************/
+void Update_HEX_display(int buffer) {
+	volatile int* HEX3_HEX0_ptr = (int*) HEX_BASE;
+
+	int shift_buffer, nibble;
+	char code;
+	int i;
+
+	shift_buffer = buffer;
+	for (i = 0; i < 8; ++i) {
+		nibble = shift_buffer & 0x0000000F; // character is in rightmost nibble
+		code = seven_seg_decode_table[nibble];
+		hex_segments[i] = code;
+		shift_buffer = shift_buffer >> 4;
+	}
+	*(HEX3_HEX0_ptr) = *(int *) hex_segments; // drive the hex displays
+	return;
+}
