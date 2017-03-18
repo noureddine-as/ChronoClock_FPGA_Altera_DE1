@@ -63,7 +63,7 @@
  -- Pin directions (input, output or bidir) are based on device operating in user mode.
  ---------------------------------------------------------------------------------
 
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 CHIP  "TP1_montre"  ASSIGNED TO AN: EP2C15AF484C6
 
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
@@ -78,7 +78,7 @@ GND*                         : A7        :        :                   :         
 GND*                         : A8        :        :                   :         : 3         :                
 GND*                         : A9        :        :                   :         : 3         :                
 GND*                         : A10       :        :                   :         : 3         :                
-GND*                         : A11       :        :                   :         : 3         :                
+GPIO_0[34]                   : A11       : bidir  : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : A12       :        :                   :         : 4         :                
 GPIO_0[0]                    : A13       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
 GPIO_0[2]                    : A14       : bidir  : 3.3-V LVTTL       :         : 4         : Y              
@@ -478,7 +478,7 @@ SW[6]                        : U11       : input  : 3.3-V LVTTL       :         
 SW[5]                        : U12       : input  : 3.3-V LVTTL       :         : 8         : Y              
 GND*                         : U13       :        :                   :         : 7         :                
 GND*                         : U14       :        :                   :         : 7         :                
-GPIO_0[34]                   : U15       : bidir  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : U15       :        :                   :         : 7         :                
 VCCA_PLL4                    : U16       : power  :                   : 1.2V    :           :                
 VCCD_PLL4                    : U17       : power  :                   : 1.2V    :           :                
 LEDR[7]                      : U18       : output : 3.3-V LVTTL       :         : 6         : Y              

@@ -240,7 +240,7 @@ end
 
 
 // Internal Assignments
-assign new_capture = data_in & ~last_data_in;
+assign new_capture = data_in ^ last_data_in;
 
 /*****************************************************************************
  *                              Internal Modules                             *

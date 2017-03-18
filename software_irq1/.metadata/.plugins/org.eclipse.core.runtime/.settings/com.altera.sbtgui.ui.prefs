@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=C\:\\FPGA_Projects\\ChronoClock_FPGA_Altera_DE1\\software\\TP1_montre_irq
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\FPGA_Projects\\ChronoClock_FPGA_Altera_DE1\\TP1_montre.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\FPGA_Projects\\ChronoClock_FPGA_Altera_DE1\\software\\TP1_montre_irq_bsp

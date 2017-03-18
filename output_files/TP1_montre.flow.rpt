@@ -1,6 +1,6 @@
 Flow report for TP1_montre
-Fri Mar 17 01:17:53 2017
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Sat Mar 18 23:29:25 2017
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -40,13 +40,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Mar 17 01:17:49 2017           ;
-; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Flow Status                        ; Successful - Sat Mar 18 23:29:19 2017           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; TP1_montre                                      ;
 ; Top-level Entity Name              ; TP1_montre_top                                  ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 2,820 / 14,448 ( 20 % )                         ;
-;     Total combinational functions  ; 2,446 / 14,448 ( 17 % )                         ;
+; Total logic elements               ; 2,825 / 14,448 ( 20 % )                         ;
+;     Total combinational functions  ; 2,457 / 14,448 ( 17 % )                         ;
 ;     Dedicated logic registers      ; 1,826 / 14,448 ( 13 % )                         ;
 ; Total registers                    ; 1894                                            ;
 ; Total pins                         ; 213 / 315 ( 68 % )                              ;
@@ -64,24 +64,24 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/17/2017 01:16:12 ;
+; Start date & time ; 03/18/2017 23:27:48 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; TP1_montre          ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                 ;
-+-------------------------------------+------------------------------+---------------+----------------+------------+
-; Assignment Name                     ; Value                        ; Default Value ; Entity Name    ; Section Id ;
-+-------------------------------------+------------------------------+---------------+----------------+------------+
-; COMPILER_SIGNATURE_ID               ; 129777372586.148970977100688 ; --            ; --             ; --         ;
-; PARTITION_COLOR                     ; 16764057                     ; --            ; TP1_montre_top ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; TP1_montre_top ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; TP1_montre_top ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                 ; --            ; --             ; --         ;
-; TOP_LEVEL_ENTITY                    ; TP1_montre_top               ; TP1_montre    ; --             ; --         ;
-+-------------------------------------+------------------------------+---------------+----------------+------------+
++--------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                   ;
++-------------------------------------+--------------------------------+---------------+----------------+------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name    ; Section Id ;
++-------------------------------------+--------------------------------+---------------+----------------+------------+
+; COMPILER_SIGNATURE_ID               ; 25130661777406.148987966705724 ; --            ; --             ; --         ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; TP1_montre_top ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; TP1_montre_top ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; TP1_montre_top ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --             ; --         ;
+; TOP_LEVEL_ENTITY                    ; TP1_montre_top                 ; TP1_montre    ; --             ; --         ;
++-------------------------------------+--------------------------------+---------------+----------------+------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -89,24 +89,24 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:59     ; 1.0                     ; 409 MB              ; 00:00:43                           ;
-; Fitter                    ; 00:00:27     ; 1.0                     ; 445 MB              ; 00:00:21                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 329 MB              ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 314 MB              ; 00:00:02                           ;
-; Total                     ; 00:01:32     ; --                      ; --                  ; 00:01:09                           ;
+; Analysis & Synthesis      ; 00:00:57     ; 1.0                     ; 606 MB              ; 00:00:47                           ;
+; Fitter                    ; 00:00:24     ; 1.0                     ; 661 MB              ; 00:00:21                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 427 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 434 MB              ; 00:00:02                           ;
+; Total                     ; 00:01:30     ; --                      ; --                  ; 00:01:12                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                         ;
-+---------------------------+------------------+------------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+---------------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis      ; d021-pc12        ; Windows XP ; 5.1        ; i686           ;
-; Fitter                    ; d021-pc12        ; Windows XP ; 5.1        ; i686           ;
-; Assembler                 ; d021-pc12        ; Windows XP ; 5.1        ; i686           ;
-; TimeQuest Timing Analyzer ; d021-pc12        ; Windows XP ; 5.1        ; i686           ;
-+---------------------------+------------------+------------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; AITSAID-PC       ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; AITSAID-PC       ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; AITSAID-PC       ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; AITSAID-PC       ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
 
 
 ------------

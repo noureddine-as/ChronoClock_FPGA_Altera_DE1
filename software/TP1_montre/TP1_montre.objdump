@@ -1235,22 +1235,22 @@ void Update_HEX_display(int buffer) {
   800694:	11000017 	ldw	r4,0(r2)
   800698:	2000683a 	jmp	r4
   80069c:	00801610 	cmplti	r2,zero,88
-  8006a0:	00800800 	call	80080 <__reset-0x77ff80>
-  8006a4:	00800800 	call	80080 <__reset-0x77ff80>
+  8006a0:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8006a4:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8006a8:	008015fc 	xorhi	r2,zero,87
-  8006ac:	00800800 	call	80080 <__reset-0x77ff80>
-  8006b0:	00800800 	call	80080 <__reset-0x77ff80>
-  8006b4:	00800800 	call	80080 <__reset-0x77ff80>
-  8006b8:	00800800 	call	80080 <__reset-0x77ff80>
-  8006bc:	00800800 	call	80080 <__reset-0x77ff80>
-  8006c0:	00800800 	call	80080 <__reset-0x77ff80>
+  8006ac:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8006b0:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8006b4:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8006b8:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8006bc:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8006c0:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8006c4:	008013dc 	xori	r2,zero,79
   8006c8:	008015ec 	andhi	r2,zero,87
-  8006cc:	00800800 	call	80080 <__reset-0x77ff80>
+  8006cc:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8006d0:	008013f4 	movhi	r2,79
   8006d4:	00801694 	movui	r2,90
-  8006d8:	00800800 	call	80080 <__reset-0x77ff80>
-  8006dc:	00801680 	call	80168 <__reset-0x77fe98>
+  8006d8:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8006dc:	00801680 	call	80168 <__alt_mem_SDRAM-0x77fe98>
   8006e0:	0080163c 	xorhi	r2,zero,88
   8006e4:	0080163c 	xorhi	r2,zero,88
   8006e8:	0080163c 	xorhi	r2,zero,88
@@ -1260,47 +1260,47 @@ void Update_HEX_display(int buffer) {
   8006f8:	0080163c 	xorhi	r2,zero,88
   8006fc:	0080163c 	xorhi	r2,zero,88
   800700:	0080163c 	xorhi	r2,zero,88
-  800704:	00800800 	call	80080 <__reset-0x77ff80>
-  800708:	00800800 	call	80080 <__reset-0x77ff80>
-  80070c:	00800800 	call	80080 <__reset-0x77ff80>
-  800710:	00800800 	call	80080 <__reset-0x77ff80>
-  800714:	00800800 	call	80080 <__reset-0x77ff80>
-  800718:	00800800 	call	80080 <__reset-0x77ff80>
-  80071c:	00800800 	call	80080 <__reset-0x77ff80>
-  800720:	00800800 	call	80080 <__reset-0x77ff80>
-  800724:	00800800 	call	80080 <__reset-0x77ff80>
-  800728:	00800800 	call	80080 <__reset-0x77ff80>
+  800704:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800708:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  80070c:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800710:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800714:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800718:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  80071c:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800720:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800724:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800728:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   80072c:	00800e58 	cmpnei	r2,zero,57
   800730:	008014c4 	movi	r2,83
-  800734:	00800800 	call	80080 <__reset-0x77ff80>
+  800734:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   800738:	008014c4 	movi	r2,83
-  80073c:	00800800 	call	80080 <__reset-0x77ff80>
-  800740:	00800800 	call	80080 <__reset-0x77ff80>
-  800744:	00800800 	call	80080 <__reset-0x77ff80>
-  800748:	00800800 	call	80080 <__reset-0x77ff80>
+  80073c:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800740:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800744:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800748:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   80074c:	00801628 	cmpgeui	r2,zero,88
-  800750:	00800800 	call	80080 <__reset-0x77ff80>
-  800754:	00800800 	call	80080 <__reset-0x77ff80>
+  800750:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800754:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   800758:	00800f0c 	andi	r2,zero,60
-  80075c:	00800800 	call	80080 <__reset-0x77ff80>
-  800760:	00800800 	call	80080 <__reset-0x77ff80>
-  800764:	00800800 	call	80080 <__reset-0x77ff80>
-  800768:	00800800 	call	80080 <__reset-0x77ff80>
-  80076c:	00800800 	call	80080 <__reset-0x77ff80>
+  80075c:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800760:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800764:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800768:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  80076c:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   800770:	00800f58 	cmpnei	r2,zero,61
-  800774:	00800800 	call	80080 <__reset-0x77ff80>
-  800778:	00800800 	call	80080 <__reset-0x77ff80>
+  800774:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800778:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   80077c:	00801578 	rdprs	r2,zero,85
-  800780:	00800800 	call	80080 <__reset-0x77ff80>
-  800784:	00800800 	call	80080 <__reset-0x77ff80>
-  800788:	00800800 	call	80080 <__reset-0x77ff80>
-  80078c:	00800800 	call	80080 <__reset-0x77ff80>
-  800790:	00800800 	call	80080 <__reset-0x77ff80>
-  800794:	00800800 	call	80080 <__reset-0x77ff80>
-  800798:	00800800 	call	80080 <__reset-0x77ff80>
-  80079c:	00800800 	call	80080 <__reset-0x77ff80>
-  8007a0:	00800800 	call	80080 <__reset-0x77ff80>
-  8007a4:	00800800 	call	80080 <__reset-0x77ff80>
+  800780:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800784:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800788:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  80078c:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800790:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800794:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  800798:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  80079c:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8007a0:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8007a4:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8007a8:	0080154c 	andi	r2,zero,85
   8007ac:	00800e64 	muli	r2,zero,57
   8007b0:	008014c4 	movi	r2,83
@@ -1308,20 +1308,20 @@ void Update_HEX_display(int buffer) {
   8007b8:	008014c4 	movi	r2,83
   8007bc:	008014b0 	cmpltui	r2,zero,82
   8007c0:	00800e64 	muli	r2,zero,57
-  8007c4:	00800800 	call	80080 <__reset-0x77ff80>
-  8007c8:	00800800 	call	80080 <__reset-0x77ff80>
+  8007c4:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8007c8:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8007cc:	00801438 	rdprs	r2,zero,80
-  8007d0:	00800800 	call	80080 <__reset-0x77ff80>
+  8007d0:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8007d4:	00801408 	cmpgei	r2,zero,80
   8007d8:	00800f18 	cmpnei	r2,zero,60
   8007dc:	00801468 	cmpgeui	r2,zero,81
   8007e0:	00801454 	movui	r2,81
-  8007e4:	00800800 	call	80080 <__reset-0x77ff80>
+  8007e4:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8007e8:	008016fc 	xorhi	r2,zero,91
-  8007ec:	00800800 	call	80080 <__reset-0x77ff80>
+  8007ec:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8007f0:	00800f64 	muli	r2,zero,61
-  8007f4:	00800800 	call	80080 <__reset-0x77ff80>
-  8007f8:	00800800 	call	80080 <__reset-0x77ff80>
+  8007f4:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
+  8007f8:	00800800 	call	80080 <__alt_mem_SDRAM-0x77ff80>
   8007fc:	008015dc 	xori	r2,zero,87
   800800:	d9014d17 	ldw	r4,1332(sp)
   800804:	2000ce26 	beq	r4,zero,800b40 <___vfprintf_internal_r+0x6d4>
@@ -15526,7 +15526,7 @@ int alt_get_fd (alt_dev* dev)
   80c628:	20000726 	beq	r4,zero,80c648 <__call_exitprocs+0x1a0>
   80c62c:	b9000015 	stw	r4,0(r23)
   80c630:	8809883a 	mov	r4,r17
-  80c634:	00000000 	call	0 <__reset-0x800000>
+  80c634:	00000000 	call	0 <__alt_mem_SDRAM-0x800000>
   80c638:	bc400017 	ldw	r17,0(r23)
   80c63c:	883fb71e 	bne	r17,zero,80c51c <__call_exitprocs+0x74>
   80c640:	003fc506 	br	80c558 <__call_exitprocs+0xb0>

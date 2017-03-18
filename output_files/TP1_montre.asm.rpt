@@ -1,6 +1,6 @@
 Assembler report for TP1_montre
-Fri Mar 17 01:17:49 2017
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Sat Mar 18 23:29:19 2017
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -11,8 +11,8 @@ Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   3. Assembler Settings
   4. Assembler Encrypted IP Cores Summary
   5. Assembler Generated Files
-  6. Assembler Device Options: C:/Documents and Settings/admin/Bureau/TP1_montre_Noureddine/output_files/TP1_montre.sof
-  7. Assembler Device Options: C:/Documents and Settings/admin/Bureau/TP1_montre_Noureddine/output_files/TP1_montre.pof
+  6. Assembler Device Options: C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/output_files/TP1_montre.sof
+  7. Assembler Device Options: C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/output_files/TP1_montre.pof
   8. Assembler Messages
 
 
@@ -39,7 +39,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Mar 17 01:17:49 2017 ;
+; Assembler Status      ; Successful - Sat Mar 18 23:29:19 2017 ;
 ; Revision Name         ; TP1_montre                            ;
 ; Top-level Entity Name ; TP1_montre_top                        ;
 ; Family                ; Cyclone II                            ;
@@ -89,53 +89,53 @@ applicable agreement for further details.
 +--------+------------------------+--------------+
 
 
-+------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                ;
-+------------------------------------------------------------------------------------------+
-; File Name                                                                                ;
-+------------------------------------------------------------------------------------------+
-; C:/Documents and Settings/admin/Bureau/TP1_montre_Noureddine/output_files/TP1_montre.sof ;
-; C:/Documents and Settings/admin/Bureau/TP1_montre_Noureddine/output_files/TP1_montre.pof ;
-+------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+; Assembler Generated Files                                                ;
++--------------------------------------------------------------------------+
+; File Name                                                                ;
++--------------------------------------------------------------------------+
+; C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/output_files/TP1_montre.sof ;
+; C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/output_files/TP1_montre.pof ;
++--------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Documents and Settings/admin/Bureau/TP1_montre_Noureddine/output_files/TP1_montre.sof ;
-+----------------+---------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                           ;
-+----------------+---------------------------------------------------------------------------------------------------+
-; Device         ; EP2C15AF484C6                                                                                     ;
-; JTAG usercode  ; 0x003DF1CD                                                                                        ;
-; Checksum       ; 0x003DF1CD                                                                                        ;
-+----------------+---------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/output_files/TP1_montre.sof ;
++----------------+-----------------------------------------------------------------------------------+
+; Option         ; Setting                                                                           ;
++----------------+-----------------------------------------------------------------------------------+
+; Device         ; EP2C15AF484C6                                                                     ;
+; JTAG usercode  ; 0x003DFA5E                                                                        ;
+; Checksum       ; 0x003DFA5E                                                                        ;
++----------------+-----------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Documents and Settings/admin/Bureau/TP1_montre_Noureddine/output_files/TP1_montre.pof ;
-+--------------------+-----------------------------------------------------------------------------------------------+
-; Option             ; Setting                                                                                       ;
-+--------------------+-----------------------------------------------------------------------------------------------+
-; Device             ; EPCS16                                                                                        ;
-; JTAG usercode      ; 0x00000000                                                                                    ;
-; Checksum           ; 0x1D9EF881                                                                                    ;
-; Compression Ratio  ; 2                                                                                             ;
-+--------------------+-----------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/output_files/TP1_montre.pof ;
++--------------------+-------------------------------------------------------------------------------+
+; Option             ; Setting                                                                       ;
++--------------------+-------------------------------------------------------------------------------+
+; Device             ; EPCS16                                                                        ;
+; JTAG usercode      ; 0x00000000                                                                    ;
+; Checksum           ; 0x1D9FB6AA                                                                    ;
+; Compression Ratio  ; 2                                                                             ;
++--------------------+-------------------------------------------------------------------------------+
 
 
 +--------------------+
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Assembler
+Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Mar 17 01:17:46 2017
+    Info: Processing started: Sat Mar 18 23:29:14 2017
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off TP1_montre -c TP1_montre
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 330 megabytes
-    Info: Processing ended: Fri Mar 17 01:17:49 2017
-    Info: Elapsed time: 00:00:03
+Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 427 megabytes
+    Info: Processing ended: Sat Mar 18 23:29:19 2017
+    Info: Elapsed time: 00:00:05
     Info: Total CPU time (on all processors): 00:00:03
 
 

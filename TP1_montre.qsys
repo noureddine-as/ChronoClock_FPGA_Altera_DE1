@@ -6,9 +6,12 @@
    version="1.0"
    description=""
    tags=""
-   categories="" />
+   categories="System" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
+   element $${FILENAME}
+   {
+   }
    element CLOCK_50
    {
       datum _sortIndex
@@ -105,6 +108,22 @@
          type = "String";
       }
    }
+   element HEX.avalon_parallel_port_slave
+   {
+      datum baseAddress
+      {
+         value = "16781344";
+         type = "String";
+      }
+   }
+   element KEY.avalon_parallel_port_slave
+   {
+      datum baseAddress
+      {
+         value = "16781408";
+         type = "String";
+      }
+   }
    element LEDG.avalon_parallel_port_slave
    {
       datum baseAddress
@@ -126,22 +145,6 @@
       datum baseAddress
       {
          value = "16781360";
-         type = "String";
-      }
-   }
-   element KEY.avalon_parallel_port_slave
-   {
-      datum baseAddress
-      {
-         value = "16781408";
-         type = "String";
-      }
-   }
-   element HEX.avalon_parallel_port_slave
-   {
-      datum baseAddress
-      {
-         value = "16781344";
          type = "String";
       }
    }
@@ -188,19 +191,19 @@
 }
 ]]></parameter>
  <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
- <parameter name="device" value="EP2C20F484C7" />
+ <parameter name="device" value="Unknown" />
  <parameter name="deviceFamily" value="Cyclone II" />
- <parameter name="deviceSpeedGrade" value="7" />
+ <parameter name="deviceSpeedGrade" value="Unknown" />
  <parameter name="fabricMode" value="QSYS" />
  <parameter name="generateLegacySim" value="false" />
  <parameter name="generationId" value="0" />
  <parameter name="globalResetBus" value="false" />
  <parameter name="hdlLanguage" value="VERILOG" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="" />
+ <parameter name="projectName" value="TP1_montre.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1489395886375" />
+ <parameter name="timeStamp" value="1489878092068" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="CLOCK_50.clk_in" type="clock" dir="end" />
@@ -439,7 +442,7 @@
   <parameter name="custom_DW" value="32" />
   <parameter name="custom_direction" value="Input only" />
   <parameter name="capture" value="true" />
-  <parameter name="edge" value="Rising" />
+  <parameter name="edge" value="Either" />
   <parameter name="irq" value="true" />
   <parameter name="irq_type" value="Edge" />
   <parameter name="AUTO_CLOCK_RESET_CLOCK_RATE" value="50000000" />
@@ -459,7 +462,7 @@
   <parameter name="custom_DW" value="32" />
   <parameter name="custom_direction" value="Input only" />
   <parameter name="capture" value="true" />
-  <parameter name="edge" value="Rising" />
+  <parameter name="edge" value="Either" />
   <parameter name="irq" value="true" />
   <parameter name="irq_type" value="Edge" />
   <parameter name="AUTO_CLOCK_RESET_CLOCK_RATE" value="50000000" />
