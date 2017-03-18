@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="36" version="2.0">
+<workbench progressCount="35" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="44" y="58">
 <fastViewData fastViewLocation="1024"/>
@@ -8,18 +8,18 @@
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="152" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="160" y="22"/>
+<coolItem id="org.eclipse.cdt.ui.CElementCreationActionSet" itemType="typeToolBarContribution" x="167" y="22"/>
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="86" y="22"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.cdt.make.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -32,23 +32,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" partName="hello_world.c" path="C:/TP1_montre/software/TP1_montre/hello_world.c" title="hello_world.c" tooltip="TP1_montre/hello_world.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="hello_world.c" partName="hello_world.c" path="C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/software/TP1_montre/hello_world.c" title="hello_world.c" tooltip="TP1_montre/hello_world.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP1_montre/hello_world.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1652" selectionTopPixel="750"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="system.h" partName="system.h" path="C:/TP1_montre/software/TP1_montre_bsp/system.h" title="system.h" tooltip="TP1_montre_bsp/system.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP1_montre_bsp/system.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5281" selectionTopPixel="2975"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="altera_up_avalon_parallel_port_regs.h" partName="altera_up_avalon_parallel_port_regs.h" path="C:/TP1_montre/software/TP1_montre_bsp/drivers/inc/altera_up_avalon_parallel_port_regs.h" title="altera_up_avalon_parallel_port_regs.h" tooltip="TP1_montre_bsp/drivers/inc/altera_up_avalon_parallel_port_regs.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TP1_montre_bsp/drivers/inc/altera_up_avalon_parallel_port_regs.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2931" selectionTopPixel="390"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2005" selectionTopPixel="770"/>
 </editor>
 </editors>
 <views>
@@ -59,9 +49,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (3 items)"/>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (12 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="75" org.eclipse.ui.ide.markerType="75" org.eclipse.ui.ide.pathField="100" org.eclipse.ui.ide.resourceField="75" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -322,7 +310,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="318" ratioRight="954" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.7490865" ratioLeft="615" ratioRight="206" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.7080645" ratioLeft="439" ratioRight="181" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.altera.sbtgui.launch.hardware.ByteStreamConsoleView:USB-Blaster on localhost [USB-0].1.0" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
@@ -362,22 +350,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP1_montre_bsp/system.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP1_montre_bsp/drivers/inc/altera_up_avalon_parallel_port_regs.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP1_montre_bsp/system.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TP1_montre_bsp/system.h"/>
 </editors>
-<item historyLabel="hello_world.c" index="0">
-<position info="not_deleted" x="4070" y="0"/>
-</item>
-<item historyLabel="altera_up_avalon_parallel_port.c" index="2">
-<position info="not_deleted" x="2455" y="32"/>
-</item>
-<item historyLabel="altera_up_avalon_parallel_port.c" index="2">
-<position info="not_deleted" x="2564" y="0"/>
-</item>
-<item historyLabel="altera_up_avalon_parallel_port.c" index="2">
-<position info="not_deleted" x="2500" y="37"/>
-</item>
-<item historyLabel="altera_up_avalon_parallel_port.c" index="2">
-<position info="not_deleted" x="2540" y="0"/>
-</item>
 <item historyLabel="altera_up_avalon_parallel_port.c" index="2">
 <position info="not_deleted" x="2501" y="0"/>
 </item>
@@ -510,8 +484,23 @@
 <item historyLabel="hello_world.c" index="5">
 <position info="not_deleted" x="4093" y="0"/>
 </item>
-<item active="true" historyLabel="hello_world.c" index="5">
+<item historyLabel="hello_world.c" index="5">
 <position info="not_deleted" x="1960" y="0"/>
+</item>
+<item historyLabel="hello_world.c" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="system.h" index="9">
+<position info="not_deleted" x="5281" y="0"/>
+</item>
+<item historyLabel="hello_world.c" index="5">
+<position info="not_deleted" x="4327" y="0"/>
+</item>
+<item historyLabel="hello_world.c" index="5">
+<position info="not_deleted" x="4320" y="0"/>
+</item>
+<item active="true" historyLabel="hello_world.c" index="5">
+<position info="not_deleted" x="4319" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>

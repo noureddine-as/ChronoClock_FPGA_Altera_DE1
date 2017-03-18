@@ -9,13 +9,13 @@
  </systemtable>
  <clocktable>
   <columns>
-   <clockname preferredWidth="334" />
-   <clocksource preferredWidth="332" />
-   <frequency preferredWidth="314" />
+   <clockname preferredWidth="364" />
+   <clocksource preferredWidth="362" />
+   <frequency preferredWidth="344" />
   </columns>
  </clocktable>
  <library expandedCategories="Library,Project" />
- <window width="1288" height="938" x="-4" y="-4" />
+ <window width="1382" height="744" x="-8" y="-8" />
  <hdlexample language="VHDL" />
  <generation synthesis="VHDL" path="_PROJECT_NAME_" />
 </preferences>

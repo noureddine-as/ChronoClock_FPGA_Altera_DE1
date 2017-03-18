@@ -4,8 +4,8 @@
 <stringAttribute key="byteStreamDeviceDeviceID" value="1"/>
 <stringAttribute key="byteStreamDeviceInstanceID" value="0"/>
 <booleanAttribute key="downloadProgram" value="true"/>
-<stringAttribute key="elfFile" value="C:\TP1_montre\software\TP1_montre\TP1_montre.elf"/>
-<stringAttribute key="elfUserFile" value="C:\TP1_montre\software\TP1_montre\TP1_montre.elf"/>
+<stringAttribute key="elfFile" value="C:\FPGA_Projects\ChronoClock_FPGA_Altera_DE1\software\TP1_montre\TP1_montre.elf"/>
+<stringAttribute key="elfUserFile" value="C:\FPGA_Projects\ChronoClock_FPGA_Altera_DE1\software\TP1_montre\TP1_montre.elf"/>
 <booleanAttribute key="enableElfUserFile" value="true"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="com.altera.debug.cdi.gdb.plugin.Nios2GdbCdiDebugger"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>

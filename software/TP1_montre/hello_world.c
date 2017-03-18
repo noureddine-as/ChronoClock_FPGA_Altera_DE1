@@ -43,11 +43,11 @@ int h, m, s, ms; // vars of the time
 int hc, mc, sc, msc; // these are the variables of the chronometer
 */
 
-volatile int * btn_ptr = (int*) 0x1001060; // KEY_BASE;
-volatile int * sw_ptr = (int*) 0x1001050 ; //SW_BASE;
-volatile int * hex_ptr = (int*)0x1001020; // HEX_BASE;
-volatile int * ledr_ptr = (int*) 0x1001030; //LEDR_BASE;
-volatile int * ledg_ptr = (int*)0x1001040; // LEDG_BASE;
+volatile int * btn_ptr = (int*)KEY_BASE; //  0x1001060; //
+volatile int * sw_ptr = (int*) SW_BASE; //  0x1001050 ; //
+volatile int * hex_ptr = (int*)HEX_BASE; //0x1001020; // ;
+volatile int * ledr_ptr = (int*)LEDR_BASE; // 0x1001030; //LEDR_BASE;
+volatile int * ledg_ptr = (int*)LEDG_BASE; //0x1001040; // LEDG_BASE;
 int val = 0;
 
 
@@ -180,6 +180,9 @@ void handle_sw_interrupts(void* context, unsigned long id)
     /* Reset the Button's edge capture register. */
 	IOWR_ALT_UP_PARALLEL_PORT_EDGE_CAPTURE(SW_BASE, 1);
 	//IOWR_ALT_UP_PARALLEL_PORT_EDGE_CAPTURE(SW_BASE, 0);
+
+	printf("Helloooo");
+
 
 }
 

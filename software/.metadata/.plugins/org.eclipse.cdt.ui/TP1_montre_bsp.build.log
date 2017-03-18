@@ -2,6 +2,7 @@
 **** Build of configuration Nios II for project TP1_montre_bsp ****
 
 make all 
+makefile:554: Warning: SOPC File C:/TP1_montre/TP1_montre.sopcinfo could not be found.
 [BSP build complete]
 
 **** Build Finished ****

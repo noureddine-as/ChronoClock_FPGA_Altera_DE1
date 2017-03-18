@@ -4,6 +4,9 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1475125904;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1475125904.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.base.1091282824;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1235157863">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/software/TP1_montre_bsp/HAL/inc"/>
+<includePath path="C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/software/TP1_montre_bsp/"/>
+<includePath path="C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/software/TP1_montre_bsp/drivers/inc"/>
 <includePath path="C:/Documents and Settings/admin/Bureau/TP1_montre/software/TP1_montre_bsp/HAL/inc"/>
 <includePath path="C:/Documents and Settings/admin/Bureau/TP1_montre/software/TP1_montre_bsp/"/>
 <includePath path="C:/Documents and Settings/admin/Bureau/TP1_montre/software/TP1_montre_bsp/drivers/inc"/>
@@ -238,6 +241,9 @@
 </instance>
 <instance id="preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1475125904;preference.org.eclipse.cdt.managedbuilder.core.configurationDataProvider.1475125904.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.base.1631029069;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.689375865">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/software/TP1_montre_bsp/HAL/inc"/>
+<includePath path="C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/software/TP1_montre_bsp/"/>
+<includePath path="C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/software/TP1_montre_bsp/drivers/inc"/>
 <includePath path="C:/Documents and Settings/admin/Bureau/TP1_montre/software/TP1_montre_bsp/HAL/inc"/>
 <includePath path="C:/Documents and Settings/admin/Bureau/TP1_montre/software/TP1_montre_bsp/"/>
 <includePath path="C:/Documents and Settings/admin/Bureau/TP1_montre/software/TP1_montre_bsp/drivers/inc"/>
