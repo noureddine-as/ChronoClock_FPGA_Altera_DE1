@@ -270,3 +270,884 @@ nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf 
 [TP1_montre_irq build complete]
 
 **** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 58 KBytes program size (code + initialized data).
+Info:                      8127 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:169: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 16 KBytes program size (code + initialized data).
+Info:                      8169 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:169: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 16 KBytes program size (code + initialized data).
+Info:                      8169 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:169: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 16 KBytes program size (code + initialized data).
+Info:                      8169 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:169: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 16 KBytes program size (code + initialized data).
+Info:                      8169 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:80: warning: unused variable 'SW_val'
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:175: error: invalid lvalue in assignment
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:188: warning: unused variable 'edge_capture_ptr'
+make: *** [obj/default/hello_world.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:80: warning: unused variable 'SW_val'
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:188: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:188: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:188: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:189: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:189: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:189: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:189: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:189: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:191: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:191: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_sw_interrupts':
+hello_world.c:168: warning: unused variable 'edge_capture_ptr'
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:191: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'handle_key_interrupts':
+hello_world.c:181: warning: unused variable 'edge_capture_ptr'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 17 KBytes program size (code + initialized data).
+Info:                      8168 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq_bsp ****
+
+make all 
+[BSP build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'init_pio':
+hello_world.c:208: error: 'interval_timer_isr' undeclared (first use in this function)
+hello_world.c:208: error: (Each undeclared identifier is reported only once
+hello_world.c:208: error: for each function it appears in.)
+make: *** [obj/default/hello_world.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 17 KBytes program size (code + initialized data).
+Info:                      8168 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:65: warning: unused variable 'unit_m_c'
+hello_world.c:65: warning: unused variable 'dis_m_c'
+hello_world.c:65: warning: unused variable 'unit_s_c'
+hello_world.c:65: warning: unused variable 'dis_s_c'
+hello_world.c:64: warning: unused variable 'unit_m'
+hello_world.c:64: warning: unused variable 'dis_m'
+hello_world.c:64: warning: unused variable 'unit_s'
+hello_world.c:64: warning: unused variable 'dis_s'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:65: warning: unused variable 'unit_m_c'
+hello_world.c:65: warning: unused variable 'dis_m_c'
+hello_world.c:65: warning: unused variable 'unit_s_c'
+hello_world.c:65: warning: unused variable 'dis_s_c'
+hello_world.c:64: warning: unused variable 'unit_m'
+hello_world.c:64: warning: unused variable 'dis_m'
+hello_world.c:64: warning: unused variable 'unit_s'
+hello_world.c:64: warning: unused variable 'dis_s'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8126 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:65: warning: unused variable 'unit_m_c'
+hello_world.c:65: warning: unused variable 'dis_m_c'
+hello_world.c:65: warning: unused variable 'unit_s_c'
+hello_world.c:65: warning: unused variable 'dis_s_c'
+hello_world.c:64: warning: unused variable 'unit_m'
+hello_world.c:64: warning: unused variable 'dis_m'
+hello_world.c:64: warning: unused variable 'unit_s'
+hello_world.c:64: warning: unused variable 'dis_s'
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8126 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
+
+**** Build of configuration Nios II for project TP1_montre_irq ****
+
+make all 
+Info: Building ../TP1_montre_irq_bsp/
+make --no-print-directory -C ../TP1_montre_irq_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../TP1_montre_irq_bsp//HAL/inc -I../TP1_montre_irq_bsp/ -I../TP1_montre_irq_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Linking TP1_montre_irq.elf
+nios2-elf-g++  -T'../TP1_montre_irq_bsp//linker.x' -msys-crt0='../TP1_montre_irq_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../TP1_montre_irq_bsp/   -Wl,-Map=TP1_montre_irq.map   -O0 -g -Wall   -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o TP1_montre_irq.elf obj/default/hello_world.o -lm 
+nios2-elf-insert TP1_montre_irq.elf --thread_model hal --cpu_name CPU --qsys true --simulation_enabled false --id 0 --sidp 0x1001070 --timestamp 1489879675 --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name TP1_montre --quartus_project_dir "C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1" --sopcinfo C:/FPGA_Projects/ChronoClock_FPGA_Altera_DE1/TP1_montre.sopcinfo
+Info: (TP1_montre_irq.elf) 59 KBytes program size (code + initialized data).
+Info:                      8125 KBytes free for stack + heap.
+Info: Creating TP1_montre_irq.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source TP1_montre_irq.elf >TP1_montre_irq.objdump
+[TP1_montre_irq build complete]
+
+**** Build Finished ****
